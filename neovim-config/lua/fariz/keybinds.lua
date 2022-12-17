@@ -7,6 +7,8 @@ keymap.set("i", "<C-o>", "<ESC>")
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally 
 
---- nvim-tree
-keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>")
+-- terminal command
+keymap.set("n", "<leader>th", ":split | terminal<CR>" ) -- spawn terminal horizontally
+keymap.set("n", "<leader>tv", ":vsplit | terminal<CR>" ) -- spawn terminal vertically
+
 
