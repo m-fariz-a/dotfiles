@@ -1,0 +1,6 @@
+require('fariz.settings')
+require('fariz.plugins')
+require('fariz.colorschemes')
+require('fariz.keybinds')
+require('fariz.plugins.comment')
+require('fariz.plugins.nvim-tree')

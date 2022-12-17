@@ -1,0 +1,18 @@
+conky.config = {
+    background = false,
+    no_buffers = true,
+    out_to_console = true,
+    out_to_x = false,
+    own_window = false,
+    update_interval = 0.15,
+    total_run_times = 0
+};
+
+conky.text = [[
+
+[
+    {"full_text": " ${exec xprop -id $(xprop -root | awk '/_NET_ACTIVE_WINDOW\(WINDOW\)/{print $NF}') | awk '/_NET_WM_NAME/{$1=$2="";print}' | tr -s ' ' | awk '{print substr($0, 3, length($0) - 3)}'} <<", "name":"window", "color":"\#cccccc"},
+    {"full_text": " ", "color":"\#555555"}
+],
+
+]];
