@@ -1,6 +1,6 @@
-# Nevom Setup
+# Neovim Setup
 
-This is Neovim config for my personal **Data Science** daily usecase.
+This is [Neovim](https://neovim.io/) config for my personal **Data Science** daily usecase.
 
 ![image](images/screenshot.png)
 
