@@ -1,5 +1,5 @@
 require('fariz.settings')
-require('fariz.plugins')
+require('fariz.plugins-setup')
 require('fariz.colorschemes')
 require('fariz.keybinds')
 require('fariz.plugins.comment')
