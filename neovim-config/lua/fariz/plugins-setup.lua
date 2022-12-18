@@ -77,6 +77,12 @@ return packer.startup(function(use)
         }
     }
 
+    -- autopairs character (bracker, quoite)
+    use("windwp/nvim-autopairs")
+
+    -- indentation guide
+    use("lukas-reineke/indent-blankline")
+
 
     if packer_bootstrap then
         require("packer").sync()
